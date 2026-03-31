@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Farming &amp; Products | Asivuke APN</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-highest": "#e3e3de",
+                        "background": "#fafaf5",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#2d150d",
+                        "inverse-primary": "#a1d494",
+                        "secondary-fixed-dim": "#e9bdae",
+                        "secondary-fixed": "#ffdbcf",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#1a1c19",
+                        "primary-fixed": "#bcf0ae",
+                        "on-secondary": "#ffffff",
+                        "tertiary": "#393c00",
+                        "surface": "#fafaf5",
+                        "on-tertiary-fixed": "#1b1d00",
+                        "on-primary-container": "#9dd090",
+                        "error-container": "#ffdad6",
+                        "outline": "#72796e",
+                        "secondary-container": "#fed0c1",
+                        "primary-container": "#2d5a27",
+                        "on-tertiary-fixed-variant": "#464a00",
+                        "on-primary-fixed-variant": "#23501e",
+                        "inverse-surface": "#2f312e",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#002201",
+                        "surface-tint": "#3b6934",
+                        "surface-dim": "#dadad5",
+                        "on-secondary-container": "#79574c",
+                        "surface-container-low": "#f4f4ef",
+                        "on-surface-variant": "#42493e",
+                        "on-secondary-fixed-variant": "#5e3f35",
+                        "primary-fixed-dim": "#a1d494",
+                        "on-background": "#1a1c19",
+                        "tertiary-fixed-dim": "#c7cc6d",
+                        "surface-container-high": "#e8e8e3",
+                        "surface-variant": "#e3e3de",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#c4c96a",
+                        "tertiary-container": "#505400",
+                        "primary": "#154212",
+                        "surface-bright": "#fafaf5",
+                        "tertiary-fixed": "#e3e986",
+                        "outline-variant": "#c2c9bb",
+                        "on-tertiary": "#ffffff",
+                        "secondary": "#79564b",
+                        "inverse-on-surface": "#f1f1ec",
+                        "surface-container": "#eeeee9"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Work Sans"],
+                        "label": ["Work Sans"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+body {
+    font-family: "Work Sans", sans-serif
+    }
+h1, h2, h3, h4 {
+    font-family: "Manrope", sans-serif
+    }
+.grain-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAJ0TnZvdlirewes05UYO6N7CMVoEWedfrtMEogSohO6JO_oAgReUMRGHVzirLuUE8bRec1ra4gxw1PViCJkrkj216cOl2ur8CvZk3tW6SuoaAa9jjdZl0pbwJCZvMtTsivlzJ-xXJicgVfo9ig-Haavb4kwJ5jsYLUriNf0NWxUISxTdWT5oeHowD_PVXP4ZVn4rT1aJ1x39tspuTOi09yNE3YZYgXtrSCqnT8usz2SXKaxw00DIOkvCuSrinpEZrdWHBvqnYSfCOt);
+    opacity: 0.03;
+    pointer-events: none
+    }</style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<div class="grain-overlay fixed inset-0 z-[60]"></div>
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#fafaf5]/60 dark:bg-stone-950/60 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-green-900 dark:text-green-200">Asivuke APN</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-stone-600 dark:text-stone-400 font-medium font-manrope tracking-tight hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Home</a>
+<a class="text-green-900 dark:text-white border-b-2 border-green-800 dark:border-green-400 pb-1 font-manrope tracking-tight font-semibold hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Farming &amp; Products</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium font-manrope tracking-tight hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Empowerment &amp; Training</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium font-manrope tracking-tight hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">About &amp; Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-xl font-semibold tracking-tight hover:bg-primary-container transition-all scale-95 duration-200 ease-in-out">
+                Consultation
+            </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<header class="relative px-8 py-20 max-w-7xl mx-auto overflow-hidden">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="label-md uppercase tracking-widest text-primary font-bold mb-4 block">Our Bounty</span>
+<h1 class="text-6xl md:text-7xl font-extrabold tracking-tighter text-on-surface mb-6 leading-[0.9]">
+                        Cultivating <br/><span class="text-primary-container">Excellence.</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-md leading-relaxed">
+                        Sustainable farming practices rooted in tradition, elevated by modern efficiency. From nutrient-rich grains to high-quality poultry.
+                    </p>
+</div>
+<div class="relative">
+<div class="aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+<img class="w-full h-full object-cover" data-alt="Close up of lush green farm field with neat rows of crops stretching towards a sunset horizon, high contrast editorial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXSYBdT7RGNArANrtfm0p4ZS36l7Ogpv38W8suT0H2k7G6N_fSh4sNz08lNXNKpYq3jCoCCxydZnLlXD5_WnXR3u8ZHfaQAVJtwEfdHrbyEIAvcKrEBUbx02A8qgu3TQU-QYVwpA68t0QvlCyMuAO5M4NWWujTnf2Ht7x075Ds2iRItGoVO59bWwxznRYq3MGm0MMasYWINV0_fpgK2Ja2cp3MLqD035GAk2MQ4oGysgG4F3rE8N5Zs3Z3VjMoakjbcGXEtfIYS6O_"/>
+</div>
+<div class="absolute -bottom-8 -left-8 p-8 bg-surface-container-lowest rounded-xl shadow-xl max-w-xs -rotate-3">
+<p class="font-headline font-bold text-primary mb-2">Seasonal Update</p>
+<p class="text-sm text-on-surface-variant">Sugar Bean harvest is currently at peak capacity. Available for wholesale inquiries.</p>
+</div>
+</div>
+</div>
+</header>
+<!-- Crop Gallery Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="text-4xl font-bold tracking-tight text-on-surface mb-4">Crop Production Portfolio</h2>
+<p class="text-on-surface-variant">We specialize in essential food security crops, maintained with strict quality control and soil health management.</p>
+</div>
+<div class="flex gap-4">
+<span class="px-4 py-2 bg-surface rounded-full text-xs font-bold tracking-widest uppercase text-primary-container">Sustainable</span>
+<span class="px-4 py-2 bg-surface rounded-full text-xs font-bold tracking-widest uppercase text-primary-container">Organic-First</span>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<!-- Sugar Beans -->
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl p-8 flex flex-col justify-between overflow-hidden relative group">
+<div class="z-10 relative">
+<span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Premium Grain</span>
+<h3 class="text-3xl font-bold mb-2">Sugar Beans</h3>
+<p class="text-on-surface-variant max-w-xs">High-protein, Grade-A beans harvested with precision.</p>
+</div>
+<div class="absolute right-0 bottom-0 w-2/3 h-full opacity-80 group-hover:opacity-100 transition-opacity">
+<img class="w-full h-full object-cover rounded-tl-full" data-alt="Macro photography of dried sugar beans held in weathered hands, earthy tones and natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbWKNqD-pEIJlaJDNTp77Ugwblu9gmoJ9ehu6oz8hbVGr-jfLVwSOm6UvynTZ4w8F2rnQN5gLDybcjez1pybWr5D8192ilyeReCVDRkFEh4wVlFGuRDjovCbHFYlHA-LhovBaNm8BRVMdU6FKUGujgyTkTzOO7UkP34qtPuC6xpyXyPidDbUV9Bgx9vANHurkNH2XI0YKO6KwT6Lp6e1rewKiaVIDEj6wnNui7WTaYTRwmeCtepNyC_0XSueOh1bKt7uSXlk2V7x5T"/>
+</div>
+<div class="mt-auto relative z-10">
+<p class="text-xs font-bold tracking-tighter text-outline-variant">AVAILABILITY: APR — AUG</p>
+</div>
+</div>
+<!-- Cabbage -->
+<div class="md:col-span-4 bg-primary text-on-primary rounded-xl p-8 flex flex-col justify-center items-center text-center">
+<div class="w-20 h-20 mb-6 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Green Cabbage</h3>
+<p class="text-on-primary-container text-sm leading-relaxed mb-6">Dense, nutrient-rich heads grown in nutrient-managed soil for superior shelf-life.</p>
+<span class="text-xs font-bold tracking-widest uppercase">Harvested Weekly</span>
+</div>
+<!-- Maize -->
+<div class="md:col-span-4 bg-surface-container-highest rounded-xl p-8 flex flex-col overflow-hidden relative group">
+<h3 class="text-2xl font-bold mb-2">Maize</h3>
+<p class="text-sm text-on-surface-variant mb-6">Our cornerstone crop for regional food security.</p>
+<img class="w-full h-48 object-cover rounded-xl mt-auto transition-transform group-hover:scale-105" data-alt="Golden ripe maize corn cobs in the field under warm bright sunlight, sharp focus and vibrant colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRNWPIwDZYum7x4XrOVYYtySB2HXDsH-qrm0d24MnoXsM8e54cL5Xa7ZrxW962otTiZAwVfSKPR2tkb8enYlXl-Hn8ImHjKFrekMLto1Au0-raGuzxrfqcG8Hb_UoG92c5Xxavi8lEOjTSaVt2sK7F41cxkPZUFI53OQHWFzsWOwFGJIiRW31op46j-AHNATkr1ENhj__CjT_5tcQPHm2MBv35AgXDhmSqNpxezF5r8TMG_pQSyP_WHFsClClxfYLthOOPmJw8qX99"/>
+</div>
+<!-- Potatoes -->
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl p-8 grid md:grid-cols-2 gap-8 items-center border border-outline-variant/10">
+<div class="order-2 md:order-1 h-full rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Harvested fresh potatoes in wooden rustic crates, soft lighting and earthy textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7INAKRjY0evaxN96aA6GPbJA0HjoOxmboqWrHZdoXVySqdHAQiLezcgeyhKk4xY4F4P1nvZwDSQ5mIdG0RWD0U9CZQZP_8SH6EF0DSKYbPy2sATRJtIrkm-ZbymvFZSd3DUfcb7-1sb8vwWdotF2hOGcly0nNScfaBi5Z8_N7-k3CwtPcokvMuCy122YY2p0IhbLu-zPxe4ru7j9KTodBp_1qL1DzhytR3JVGzOwI15gee_SRsd4OOQBJ0VBIdKsrVrm5gXGPHSF0"/>
+</div>
+<div class="order-1 md:order-2">
+<h3 class="text-3xl font-bold mb-4">Potatoes</h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant">Consistent Sizing (Small to Large)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant">Low sugar content for optimal frying</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant">Bulk wholesale available</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Poultry Section -->
+<section class="py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="relative z-10 rounded-xl overflow-hidden shadow-2xl">
+<img class="w-full aspect-square object-cover" data-alt="Organic poultry farm with free-range chickens in a spacious clean environment, natural diffused daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9sBR-cSsANaFywvm58WaVK6PX-x68Cq6aT8kIquXX6lGk6YsCI9mChJHd2h5smdo5IbnaxduPH59gB2XtWuZ31Z0cmtZTJ0OEOlSWbmc1OSRiOJpK0WBcF3yWt6Yu3l1h386Qj0qUhYXT2ZslASSPyietunR_j-iUhPooh-MVDqXI6vG7nflQtZ6rpziSKBuEv239D3fj3txyiML0gXOEtyIWfFOVxAdUAAiio_i0w6CEnkRMnafiY1O3lgLObHguvUdnUMLWvEF6"/>
+</div>
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-secondary-container/20 rounded-full blur-3xl -z-10"></div>
+</div>
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Livestock Management</span>
+<h2 class="text-5xl font-bold tracking-tighter mb-8 text-on-surface">Modern Poultry <br/>Infrastructure</h2>
+<p class="text-lg text-on-surface-variant mb-8 leading-relaxed">
+                        Our poultry division operates under strict biosecurity protocols. We focus on ethical rearing practices that ensure bird health, resulting in premium quality meat and eggs for our commercial partners.
+                    </p>
+<div class="grid grid-cols-2 gap-6">
+<div class="p-6 bg-surface-container rounded-xl border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary mb-2">science</span>
+<h4 class="font-bold mb-1">Health Focused</h4>
+<p class="text-xs text-on-surface-variant">Continuous veterinary monitoring and high-nutrient feed.</p>
+</div>
+<div class="p-6 bg-surface-container rounded-xl border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary mb-2">inventory</span>
+<h4 class="font-bold mb-1">Scale Supply</h4>
+<p class="text-xs text-on-surface-variant">Capable of meeting large-scale retail and commercial demands.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA / Inquiry -->
+<section class="mt-12 px-8">
+<div class="max-w-7xl mx-auto bg-primary-container rounded-[2rem] p-12 md:p-20 relative overflow-hidden flex flex-col items-center text-center">
+<!-- Background decorative element -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0 100 C 20 0, 50 0, 100 100 Z" fill="currentColor"></path>
+</svg>
+</div>
+<div class="relative z-10 max-w-2xl">
+<h2 class="text-4xl md:text-5xl font-bold text-on-primary mb-6 tracking-tight">Ready to Partner with Asivuke APN?</h2>
+<p class="text-on-primary-container text-lg mb-10 opacity-90">
+                        Whether you are a retailer, wholesaler, or community partner, we provide consistent supply chains and competitive market rates for all our farming outputs.
+                    </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-xl font-bold tracking-tight hover:shadow-lg transition-all flex items-center justify-center gap-2">
+                            Place Wholesale Order
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-surface-container-lowest/10 backdrop-blur-md text-on-primary border border-on-primary/20 px-10 py-4 rounded-xl font-bold tracking-tight hover:bg-surface-container-lowest/20 transition-all">
+                            Request Seasonal Catalog
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-100 dark:bg-stone-900 w-full rounded-t-[2rem] mt-24">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-12 py-20 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-black text-stone-800 dark:text-stone-100">Asivuke APN</div>
+<p class="text-stone-500 dark:text-stone-400 font-work-sans text-sm leading-relaxed max-w-xs">
+                    Rooted in excellence, we strive to be the leading force in sustainable agriculture and business empowerment in our region.
+                </p>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-green-800 cursor-pointer hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">public</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-green-800 cursor-pointer hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">mail</span>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<h4 class="text-sm font-bold uppercase tracking-widest text-green-800 dark:text-green-400">Navigation</h4>
+<ul class="space-y-4">
+<li><a class="text-stone-500 dark:text-stone-400 text-sm hover:underline decoration-green-800/30 underline-offset-4 transition-opacity" href="#">Privacy Policy</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 text-sm hover:underline decoration-green-800/30 underline-offset-4 transition-opacity" href="#">Terms of Service</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 text-sm hover:underline decoration-green-800/30 underline-offset-4 transition-opacity" href="#">Sustainability Report</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 text-sm hover:underline decoration-green-800/30 underline-offset-4 transition-opacity" href="#">Community Initiatives</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="text-sm font-bold uppercase tracking-widest text-green-800 dark:text-green-400">Contact Us</h4>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-800 dark:text-green-400 text-xl">location_on</span>
+<span class="text-sm text-stone-500 dark:text-stone-400">APN Farm Estates, KwaZulu-Natal</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-800 dark:text-green-400 text-xl">call</span>
+<span class="text-sm text-stone-500 dark:text-stone-400">+27 (0) 123 4567</span>
+</div>
+</div>
+<div class="pt-4">
+<p class="text-xs text-stone-400 font-work-sans">© 2024 Asivuke APN Trading and Projects. Sustainable Growth, Rooted in Excellence.</p>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

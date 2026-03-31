@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-highest": "#e3e3de",
+              "background": "#fafaf5",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed": "#2d150d",
+              "inverse-primary": "#a1d494",
+              "secondary-fixed-dim": "#e9bdae",
+              "secondary-fixed": "#ffdbcf",
+              "on-error": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "on-surface": "#1a1c19",
+              "primary-fixed": "#bcf0ae",
+              "on-secondary": "#ffffff",
+              "tertiary": "#393c00",
+              "surface": "#fafaf5",
+              "on-tertiary-fixed": "#1b1d00",
+              "on-primary-container": "#9dd090",
+              "error-container": "#ffdad6",
+              "outline": "#72796e",
+              "secondary-container": "#fed0c1",
+              "primary-container": "#2d5a27",
+              "on-tertiary-fixed-variant": "#464a00",
+              "on-primary-fixed-variant": "#23501e",
+              "inverse-surface": "#2f312e",
+              "on-primary": "#ffffff",
+              "on-primary-fixed": "#002201",
+              "surface-tint": "#3b6934",
+              "surface-dim": "#dadad5",
+              "on-secondary-container": "#79574c",
+              "surface-container-low": "#f4f4ef",
+              "on-surface-variant": "#42493e",
+              "on-secondary-fixed-variant": "#5e3f35",
+              "primary-fixed-dim": "#a1d494",
+              "on-background": "#1a1c19",
+              "tertiary-fixed-dim": "#c7cc6d",
+              "surface-container-high": "#e8e8e3",
+              "surface-variant": "#e3e3de",
+              "error": "#ba1a1a",
+              "on-tertiary-container": "#c4c96a",
+              "tertiary-container": "#505400",
+              "primary": "#154212",
+              "surface-bright": "#fafaf5",
+              "tertiary-fixed": "#e3e986",
+              "outline-variant": "#c2c9bb",
+              "on-tertiary": "#ffffff",
+              "secondary": "#79564b",
+              "inverse-on-surface": "#f1f1ec",
+              "surface-container": "#eeeee9"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Work Sans"],
+              "label": ["Work Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.grain-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuC2iJCvPjKzPwn7xGZEnhK1vDTu_TmcJ1nGZO5BWGLlni5LE5NwhXI6yB5AeehzN5sF2kb08--jYgurovWqzxWQrvzELXlyodLpx1U-ZHkDPmkvIcLRMK-nJ1aMQmizhdL6zbrYFAY1zxhzRZ56CKCrlBGfzQwrg3wF099xdErRE0uiaVJ_ZD7kxm2KWFdSWaCQOuMb2OZz24_DEIjBXu9bG_WHjx-1WDHl1G1TVGSy4VdxOF1UNTB4V-8nF_a98avTrmCl6ROSZyDX);
+    opacity: 0.03
+    }</style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<nav class="fixed top-0 w-full z-50 bg-[#fafaf5]/60 dark:bg-stone-950/60 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-green-900 dark:text-green-200 font-headline">Asivuke APN</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-headline tracking-tight font-semibold text-green-900 dark:text-white border-b-2 border-green-800 dark:border-green-400 pb-1 hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Home</a>
+<a class="font-headline tracking-tight font-semibold text-stone-600 dark:text-stone-400 font-medium hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Farming &amp; Products</a>
+<a class="font-headline tracking-tight font-semibold text-stone-600 dark:text-stone-400 font-medium hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">Empowerment &amp; Training</a>
+<a class="font-headline tracking-tight font-semibold text-stone-600 dark:text-stone-400 font-medium hover:text-green-700 dark:hover:text-green-300 transition-colors duration-300" href="#">About &amp; Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-xl font-headline font-semibold scale-95 duration-200 ease-in-out hover:scale-100">
+                Consultation
+            </button>
+</div>
+</nav>
+<main class="relative">
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover brightness-95 contrast-105" data-alt="expansive sunlit green field with neat crop rows stretching toward a horizon under a clear morning sky, high-end editorial photography style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwgMpije3VryPHLZYAU3YBmV_SXoSbdZHh_U_TMa_IDSj3ZFI5yNxrgyF1589eRzV9-HkFqo3kj7JvvFbFpTsRxF0pK0ObivzUFBIKNTQgNMjWa1uYZYk2w1reS-lPyE92ymgujIHPoWeQSc2t_Fj6xvHYbNiCVeXy2rJYxtfqeoZ1zsJB5hUgfOIEqYVLdAtQg21mpwnwttdvK9AORiUz_lg5v0PybsvkwsGx9o0d6s89_2T3aGfGrJCcvI2X2NhNml52_utRgO_W"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface/80 via-surface/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="inline-block px-3 py-1 bg-primary-fixed text-on-primary-fixed rounded-full text-xs font-bold tracking-widest uppercase font-label">
+                        Agriculture Excellence
+                    </div>
+<h1 class="text-7xl font-headline font-extrabold text-primary leading-[1.05] tracking-tighter">
+                        Sustainable Growth,<br/>Rooted in Excellence.
+                    </h1>
+<p class="text-xl text-on-surface-variant max-w-lg leading-relaxed">
+                        Pioneering the future of agribusiness through innovative farming practices and community empowerment. We bridge the gap between tradition and technology.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-xl font-headline font-bold text-lg shadow-lg transition-transform active:scale-95">
+                            Explore Services
+                        </button>
+<button class="flex items-center gap-2 px-8 py-4 text-primary font-headline font-bold text-lg hover:underline decoration-primary/30 underline-offset-8">
+                            Our Impact <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="hidden lg:block relative h-[600px]">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[500px] bg-surface-container-highest rounded-[4rem] rotate-3 overflow-hidden">
+<img class="w-full h-full object-cover -rotate-3 scale-110" data-alt="close up of a professional farmer inspecting organic vegetable seedlings in a modern nursery greenhouse, soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2YySeWH5W_MmJjM3q9fEqkzkNSz9MYztZ6QvOtq2oA1ko-fP_Ru3y25FZplp0Y9zNJTwXg8wJoWrseLwBJtl1tgeZoJwsx7jpPvAwHEMc-uyofy72IGN8hhQ5w6eriUZoNZFzNSJyYgfx8nG5kEp23IO3x1U7n-oy_VJUJCUFUhMPSo8Nv6BFzb8gWyScExFU-WjigljFGELncEK67bUkiAK-7Jd_eTKiOs0gv7dSwpiVms19g90j0luyNqpY_dCxZeFud0DY2Anq"/>
+</div>
+<div class="absolute bottom-12 -left-12 p-8 bg-surface-container-lowest rounded-xl shadow-2xl border-l-4 border-primary max-w-xs">
+<div class="flex items-center gap-4 mb-3">
+<div class="bg-primary-fixed p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined" data-weight="fill">eco</span>
+</div>
+<div class="font-headline font-bold text-lg">100% Organic</div>
+</div>
+<p class="text-sm text-on-surface-variant italic">"We prioritize the health of the soil and the prosperity of our people."</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface-container-low relative">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-2xl">
+<span class="text-primary font-bold tracking-widest uppercase text-xs font-label block mb-4">What we do</span>
+<h2 class="text-5xl font-headline font-extrabold text-on-surface tracking-tighter">Core Services &amp; Operations</h2>
+</div>
+<p class="text-on-surface-variant max-w-sm pb-1">
+                        Comprehensive solutions for the modern agricultural landscape, from field production to consulting.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:-translate-y-2">
+<div class="mb-8 overflow-hidden rounded-xl h-48">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="golden wheat field being harvested by a modern tractor, professional agricultural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6RfKIowCKaD-dgI9kowoyqdgcIi3sFWErJ0xUZo_aFa-aock_66hgV38LcM3Y_7QVacnqHMH8SzNAkt1rq6Kftq4LpOHY00sK2OEUPgKfhigsKj0ADwBUuPVW_fkTfsYueGFUbKeKYbSIoP4j5_AZhiEjqkfRYdb6flnt4aDp4cfJPRUF9J2aklY3yldun-0Io-z6GU99uHJAt2hlaPS3jFSKXAsZGO9v48aTWEC9i5PL4SwZUGCgYuXSNVAk_hAsvlO9Zo9G8bUR"/>
+</div>
+<div class="bg-primary/10 w-14 h-14 rounded-full flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl">agriculture</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Crop Production</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                            High-yield, sustainable cultivation of essential crops utilizing precision farming techniques and organic soil management.
+                        </p>
+<a class="text-primary font-bold inline-flex items-center gap-1 group/link" href="#">
+                            Learn more <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:-translate-y-2">
+<div class="mb-8 overflow-hidden rounded-xl h-48">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="modern poultry farm with clean white structures and healthy free-range chickens, soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVuDzmWRZ56qNu-x9BAKFkk1BAMHGNHNIbYzn3INtivqbU-u0Jjh9xNRvMH5CMtryLXC9UlF79fJp5wZq4NRxCALIYO1l0OCpKv1PQp5GNu4GlVU2XoyUkN-55bH-9se5gappC3dIcz42qY_e5orlGAIsdAg6PZMRTtfUZLTgwdkbonEPbhBHHW_n6vaffCBdME9F45yjI9SGJ8IXKIrexe60Vc_NTvxPeEJyQ-l1UKOUWq2eXx2K6eDYlBuKEgZadaxqxp-U5Q5vC"/>
+</div>
+<div class="bg-secondary-container w-14 h-14 rounded-full flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined text-3xl">nest_found_savings</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Poultry Farming</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                            Ethical and efficient poultry management systems providing premium quality produce while ensuring high animal welfare standards.
+                        </p>
+<a class="text-primary font-bold inline-flex items-center gap-1 group/link" href="#">
+                            Learn more <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:-translate-y-2">
+<div class="mb-8 overflow-hidden rounded-xl h-48">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="professional hands reviewing agricultural business plans and financial reports on a clean wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEKfHFwNhk84lL0bhDG-5F39PEbGLKLl7GVLFQdiC3FxxS19GBByj1FTERF2roswuJG04QXXq39BbcAApVTaZ-24y6kZpL8SefhIgawsXvjiIBJZsAggxla1ozBcDCt3pRVpsr91NZhkWU5zscZ7FlXLSrgQIPD5JfWXVl8n3fAtmbgzhgWdy7mAqOz4kYDrg9l3YV7D0tcyzxLVf7vYKJZZShzWnMDxfnVUtRDvVBqUT7TI3EUST6ilTnEdwL_VozcDCKDuBZBVYm"/>
+</div>
+<div class="bg-tertiary-container w-14 h-14 rounded-full flex items-center justify-center text-tertiary-fixed-dim mb-6">
+<span class="material-symbols-outlined text-3xl">query_stats</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Agribusiness Services</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                            Expert consultation, market analysis, and project management services designed to scale agricultural ventures profitably.
+                        </p>
+<a class="text-primary font-bold inline-flex items-center gap-1 group/link" href="#">
+                            Learn more <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-primary text-on-primary overflow-hidden relative">
+<div class="grain-overlay absolute inset-0"></div>
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl translate-x-4 -translate-y-4">
+<img class="w-full h-full object-cover" data-alt="group of young diverse students in an outdoor agricultural workshop learning about sustainable planting techniques" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeQl7k1hsf19WN4ZSDx_XGkFzaDG-nj2dvRbr-XRJxaiVIJjOCLjiAabo7SXNdoMT2llZ1hv6ybvNB5VCFdronnWTeCLgeGT_yHNXpB4AZo4KlRdvrUyC4tDoMkGMIYE8LbxTnc3TQtBeCYneCP1R2sWNP-G6NL2_TjxfdlHnGSa0H9wsMejW6itd3WiZT8TJRXy8f4Y8AvR6rQatfpU8W3djyAPV8kfH5xyErPmhgLnRpuqoAl29ysEhMmQ-CT9YfxdwEPLNzhOqR"/>
+</div>
+<div class="absolute -bottom-8 -right-8 w-48 h-48 bg-tertiary rounded-full opacity-20 blur-3xl"></div>
+<div class="absolute inset-0 border-2 border-primary-fixed/20 rounded-[3rem] translate-x-0 translate-y-0"></div>
+</div>
+<div class="space-y-8">
+<span class="text-on-primary-container font-bold tracking-widest uppercase text-xs font-label">Investing in People</span>
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter leading-tight">Empowerment &amp; <br/>Training Initiatives</h2>
+<p class="text-lg text-primary-fixed opacity-90 leading-relaxed">
+                            We believe that sustainable growth starts with shared knowledge. Asivuke APN provides comprehensive training programs for aspiring farmers and agricultural entrepreneurs, equipping them with the tools to build their own legacies.
+                        </p>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<div class="bg-primary-container p-2 rounded-lg mt-1">
+<span class="material-symbols-outlined text-on-primary-container">school</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl">Skills Development</h4>
+<p class="text-primary-fixed/70">Practical workshops on soil science, livestock care, and modern machinery.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary-container p-2 rounded-lg mt-1">
+<span class="material-symbols-outlined text-on-primary-container">groups</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl">Mentorship Programs</h4>
+<p class="text-primary-fixed/70">Direct guidance from industry veterans for long-term venture success.</p>
+</div>
+</div>
+</div>
+<button class="bg-surface text-primary px-10 py-4 rounded-xl font-headline font-bold text-lg hover:bg-primary-fixed transition-colors">
+                            Join Our Next Intake
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8 text-center mb-16">
+<h2 class="text-4xl font-headline font-extrabold text-on-surface mb-4">Our Growth Timeline</h2>
+<div class="w-24 h-1.5 bg-primary-fixed mx-auto rounded-full"></div>
+</div>
+<div class="max-w-5xl mx-auto px-8">
+<div class="relative flex flex-col space-y-16">
+<div class="absolute left-[31px] md:left-1/2 top-0 bottom-0 w-1 bg-primary-fixed opacity-30"></div>
+<div class="relative flex items-center justify-start md:justify-center group">
+<div class="md:w-1/2 md:pr-12 md:text-right hidden md:block">
+<h3 class="text-2xl font-headline font-bold text-primary">Founding Vision</h3>
+<p class="text-on-surface-variant">Establishing the roots of excellence in the agricultural sector.</p>
+</div>
+<div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-10 h-10 bg-primary rounded-full flex items-center justify-center border-4 border-surface shadow-lg z-10">
+<span class="material-symbols-outlined text-on-primary text-sm" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<div class="md:w-1/2 md:pl-12 pl-16">
+<div class="md:hidden">
+<h3 class="text-2xl font-headline font-bold text-primary">Founding Vision</h3>
+<p class="text-on-surface-variant mb-4">Establishing the roots of excellence in the agricultural sector.</p>
+</div>
+<span class="text-primary font-black opacity-20 text-4xl font-headline">2020</span>
+</div>
+</div>
+<div class="relative flex items-center justify-start md:justify-center group">
+<div class="md:w-1/2 md:pr-12 md:text-right text-right pl-16 md:pl-0 order-2 md:order-1">
+<span class="text-primary font-black opacity-20 text-4xl font-headline">2022</span>
+</div>
+<div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-10 h-10 bg-primary-container rounded-full flex items-center justify-center border-4 border-surface shadow-lg z-10">
+<span class="material-symbols-outlined text-on-primary-container text-sm" style="font-variation-settings: 'FILL' 1;">diversity_3</span>
+</div>
+<div class="md:w-1/2 md:pl-12 pr-12 order-1 md:order-2 hidden md:block">
+<h3 class="text-2xl font-headline font-bold text-primary">Community Expansion</h3>
+<p class="text-on-surface-variant">Launching the first large-scale empowerment training center.</p>
+</div>
+<div class="md:hidden pl-16">
+<h3 class="text-2xl font-headline font-bold text-primary">Community Expansion</h3>
+<p class="text-on-surface-variant">Launching the first large-scale empowerment training center.</p>
+</div>
+</div>
+<div class="relative flex items-center justify-start md:justify-center group">
+<div class="md:w-1/2 md:pr-12 md:text-right hidden md:block">
+<h3 class="text-2xl font-headline font-bold text-primary">Strategic Innovation</h3>
+<p class="text-on-surface-variant">Implementing precision farming and drone technology systems.</p>
+</div>
+<div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-10 h-10 bg-primary-fixed rounded-full flex items-center justify-center border-4 border-surface shadow-lg z-10">
+<span class="material-symbols-outlined text-on-primary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+</div>
+<div class="md:w-1/2 md:pl-12 pl-16">
+<div class="md:hidden">
+<h3 class="text-2xl font-headline font-bold text-primary">Strategic Innovation</h3>
+<p class="text-on-surface-variant mb-4">Implementing precision farming and drone technology systems.</p>
+</div>
+<span class="text-primary font-black opacity-20 text-4xl font-headline">2024</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full rounded-t-[2rem] mt-24 bg-stone-100 dark:bg-stone-900 overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-12 py-20 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-black text-stone-800 dark:text-stone-100 font-headline">Asivuke APN</div>
+<p class="text-stone-500 dark:text-stone-400 max-w-xs leading-relaxed font-body text-sm tracking-wide">
+                    Rooted in excellence, growing for the future. We provide sustainable agricultural solutions across South Africa.
+                </p>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-green-800 dark:text-green-400 opacity-80 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">public</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-green-800 dark:text-green-400 opacity-80 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-green-800 dark:text-green-400 opacity-80 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">call</span>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<h4 class="text-green-800 dark:text-green-400 font-bold uppercase tracking-widest text-xs">Resources</h4>
+<div class="flex flex-col gap-3">
+<a class="text-stone-500 dark:text-stone-400 font-work-sans text-sm tracking-wide hover:underline decoration-green-800/30 underline-offset-4" href="#">Privacy Policy</a>
+<a class="text-stone-500 dark:text-stone-400 font-work-sans text-sm tracking-wide hover:underline decoration-green-800/30 underline-offset-4" href="#">Terms of Service</a>
+<a class="text-stone-500 dark:text-stone-400 font-work-sans text-sm tracking-wide hover:underline decoration-green-800/30 underline-offset-4" href="#">Sustainability Report</a>
+<a class="text-stone-500 dark:text-stone-400 font-work-sans text-sm tracking-wide hover:underline decoration-green-800/30 underline-offset-4" href="#">Community Initiatives</a>
+</div>
+</div>
+<div class="space-y-6">
+<h4 class="text-green-800 dark:text-green-400 font-bold uppercase tracking-widest text-xs">Newsletter</h4>
+<p class="text-stone-500 dark:text-stone-400 text-sm">Stay updated with our latest harvests and projects.</p>
+<div class="flex">
+<input class="bg-stone-200 dark:bg-stone-800 border-none rounded-l-lg px-4 py-3 w-full text-sm focus:ring-1 focus:ring-green-800/30 outline-none" placeholder="Email Address" type="email"/>
+<button class="bg-green-800 text-white px-4 py-3 rounded-r-lg font-bold">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-stone-200/50 dark:border-stone-800/50 text-center text-stone-400 dark:text-stone-500 text-xs font-work-sans">
+            © 2024 Asivuke APN Trading and Projects. Sustainable Growth, Rooted in Excellence.
+        </div>
+</footer>
+</body></html>
