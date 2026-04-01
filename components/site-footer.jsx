@@ -33,9 +33,7 @@ export function SiteFooter({ navigation }) {
           </div>
         </div>
 
-        <p className="footer-note">
-          © 2026 Asivuke APN Trading and Projects. Sustainable Growth, Rooted in Excellence.
-        </p>
+        <p className="footer-note">© 2026 Asivuke APN Trading and Projects. Sustainable Growth, Rooted in Excellence.</p>
       </div>
     </footer>
   );

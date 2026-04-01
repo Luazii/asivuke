@@ -11,8 +11,8 @@ export default function HomePage() {
         <div className="shell">
           <SectionHeading
             eyebrow="What we do"
-            title="Core Services & Operations"
-            description="Comprehensive support for the modern agricultural landscape, from field production to capacity building."
+            title="Core Crop Lines"
+            description="A focused crop portfolio built around disciplined field management, quality control, and dependable harvest timing."
           />
           <div className="service-grid">
             {homePage.services.map((service) => (
@@ -32,19 +32,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="impact-band" id="training">
+      <section className="impact-band" id="production">
         <div className="shell split-band">
           <div className="band-image-stack">
             <div className="band-image-frame">
-              <img alt={homePage.trainingSpotlight.alt} loading="lazy" src={homePage.trainingSpotlight.image} />
+              <img alt={homePage.productionSpotlight.alt} loading="lazy" src={homePage.productionSpotlight.image} />
             </div>
           </div>
           <div className="band-copy">
-            <span className="eyebrow eyebrow-on-dark">Investing in people</span>
-            <h2>{homePage.trainingSpotlight.title}</h2>
-            <p>{homePage.trainingSpotlight.description}</p>
+            <span className="eyebrow eyebrow-on-dark">How we grow</span>
+            <h2>{homePage.productionSpotlight.title}</h2>
+            <p>{homePage.productionSpotlight.description}</p>
             <div className="bullet-list">
-              {homePage.trainingSpotlight.points.map((point) => (
+              {homePage.productionSpotlight.points.map((point) => (
                 <div className="bullet-item" key={point.title}>
                   <span className="bullet-badge">{point.badge}</span>
                   <div>
@@ -54,8 +54,8 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <a className="button button-light" href="/empowerment-training#application">
-              Join our next intake
+            <a className="button button-light" href="/farming-products">
+              View crop portfolio
             </a>
           </div>
         </div>
@@ -85,13 +85,13 @@ export default function HomePage() {
         <div className="shell">
           <div className="cta-panel">
             <span className="eyebrow eyebrow-on-dark">Let&apos;s grow together</span>
-            <h2>Planning a new season, supply partnership, or training intake?</h2>
+            <h2>Planning a seasonal order or checking crop availability?</h2>
             <p>
-              We help cooperatives, retailers, and emerging agropreneurs move from idea to reliable execution.
+              We work with buyers who need dependable crop supply, clear timing, and a direct line to the farm.
             </p>
             <div className="cta-actions">
-              <a className="button button-light" href="/about-contact#contact">
-                Start a conversation
+              <a className="button button-light" href="/contact">
+                Request availability
               </a>
               <a className="button button-ghost-light" href="/farming-products">
                 View product lines

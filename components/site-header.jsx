@@ -25,8 +25,8 @@ export function SiteHeader({ navigation }) {
             ))}
           </nav>
 
-          <Link className="button button-primary header-cta" href="/about-contact#contact">
-            Consultation
+          <Link className="button button-primary header-cta" href="/contact">
+            Request pricing
           </Link>
 
           <button
@@ -36,7 +36,7 @@ export function SiteHeader({ navigation }) {
             onClick={() => setIsOpen((current) => !current)}
             type="button"
           >
-            {isOpen ? "×" : "≡"}
+            {isOpen ? "Close" : "Menu"}
           </button>
         </div>
 
@@ -52,8 +52,8 @@ export function SiteHeader({ navigation }) {
                 {item.label}
               </Link>
             ))}
-            <Link className="button button-primary" href="/about-contact#contact" onClick={() => setIsOpen(false)}>
-              Consultation
+            <Link className="button button-primary" href="/contact" onClick={() => setIsOpen(false)}>
+              Request pricing
             </Link>
           </nav>
         ) : null}

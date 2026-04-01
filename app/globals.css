@@ -202,6 +202,25 @@ textarea {
   color: rgba(243, 245, 236, 0.78);
 }
 
+.impact-band .section-heading h2,
+.impact-band .band-copy h2,
+.impact-band .band-copy h3 {
+  color: #f3f5ec;
+}
+
+.impact-band .band-copy p,
+.impact-band .bullet-item p {
+  color: rgba(243, 245, 236, 0.82);
+}
+
+.cta-panel h2 {
+  color: #f3f5ec;
+}
+
+.cta-panel p {
+  color: rgba(243, 245, 236, 0.84);
+}
+
 .page-hero {
   padding: clamp(2rem, 4vw, 3rem) 0 clamp(4.5rem, 8vw, 6rem);
 }
